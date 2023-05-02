@@ -5,4 +5,4 @@
 * Once I did that, I found the average distance
 * I did this for both and I compared the distances
 * Programming language: Rust
-* Contributors: ChatGPT for helping me with debugging the code(lines 28-30 and line 62)
+* Contributors: **ChatGPT**  for helping me with debugging the code(lines 28-30 and line 62)
