@@ -1,0 +1,10 @@
+{
+    "rust-analyzer.linkedProjects": [
+        ".\\ds210project\\Cargo.toml",
+        ".\\ds210project\\Cargo.toml",
+        ".\\ds210project\\Cargo.toml",
+        ".\\ds210projectenron\\Cargo.toml",
+        ".\\ds210projectfacebook\\Cargo.toml",
+        ".\\ds210projectenron\\Cargo.toml"
+    ]
+}
