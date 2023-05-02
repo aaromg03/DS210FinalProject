@@ -5,6 +5,8 @@ use petgraph::algo::dijkstra;
 use std::collections::HashMap;
 
 fn main() {
+    
+    //Importing the enron txt file
     let file = File::open("emailenron.txt").expect("Failed to open file");
     let reader = BufReader::new(file);
 
@@ -42,10 +44,12 @@ fn main() {
         
     }
 
-    let mut total_distance = 0;
-    let mut num_pairs = 0;
+    
 
     // Find the shortest path between each pair of vertices using Dijkstra's algorithm
+    let mut total_distance = 0;
+    let mut num_pairs = 0;
+    
     for i in 0..graph.node_count() {
         for j in 0..graph.node_count() {
             if i == j {
